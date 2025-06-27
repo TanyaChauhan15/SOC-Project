@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#blocks{
+    width: 240px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 3%;
+    background-color: rgb(60, 60, 60);
+    color: white;
+    padding:10px 0 0 10px;
+    display: inline-block;
+}
