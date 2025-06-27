@@ -1,0 +1,67 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body{
+    
+    min-height: 100vh;
+}
+
+.container{
+    background-color: black;
+    display: grid;
+    height: 700px;
+    width: 850px;
+    color: white;
+    gap:10px;
+    grid-template-columns: 4fr 2fr 2fr 0.5fr;
+    grid-template-rows: 7fr 3fr 3fr 1fr;
+}
+
+
+#one{
+    background-color: red;
+    grid-area: 1/1/2/2;
+   
+}
+
+#two{
+    background-color: rgb(224, 220, 220);
+    grid-area: 1/2/2/5;
+
+}
+
+#three{
+    background-color: rgb(224, 220, 220);
+   grid-area:2/1/4/2;
+}
+
+#four{
+    background-color: rgb(224, 220, 220);
+    grid-area: 2/2/4/4;
+}
+
+#five{
+    background-color: blue;  
+}
+
+#six{
+    background-color: rgb(224, 220, 220);
+    
+}
+
+#seven{
+    background-color: yellow;
+}
+
+#eight{
+    background-color: black;
+}
+
+#nine{
+    background-color: rgb(224, 220, 220);
+    grid-area:3/4/5/5 ;
+  
+}

@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+
+#title{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+   padding-top: 40px;
+   padding-bottom: 5px;
+}
+
+#title1{
+     text-align: center;
+     color: white;
+     font-size: 40px;
+     
+}
+
+#title3{
+     text-align: center;
+     color: white;
+     font-size: 20px;
+     padding-top: 5px;padding-bottom: 20px;
+
+}
+
+
+.outer {
+    
+    height:700px;
+    width:700px;
+    background-image: linear-gradient(to top right,#0099ff,#a8e063);
+    align-items: center;
+}
+
+.row {
+  
+    display: flex;
+    padding-bottom: 3px;
+    padding-left: 100px;
+    
+}
+
+.one {
+    background-color: #0aa0b4;
+    height: 150px;
+    width: 150px;
+    border-radius: 5%;
+    margin-right: 3px;
+
+}
+
+
+#sq{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    animation: anime7 2s forwards 0s infinite;
+    
+}
+
+@keyframes anime7 {
+    0%{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(-50px,0);
+    }
+   
+    50%{
+        transform: translate(-50px,-50px) ;
+    }
+
+    75%{
+        transform: translate(0,-50px);
+    }
+
+    100%{
+        transform: translate(0,0);
+    }
+}
+
+#squ1{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    position: relative;
+    margin-top: 60px;
+    margin-left: 50px;
+    display: inline-block;
+    animation: anime91 2s forwards 0s infinite;
+}
+
+#squ2{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    display: inline-block;
+    animation: anime92 2s forwards 0s infinite;
+   
+}
+
+@keyframes anime91{
+    0%{
+        transform: translate(0,0);
+    }
+
+    25%{
+        transform: translate(0,-10px);
+    }
+
+    50%{
+        transform: translate(22px,-10px);
+    }
+
+    75%{
+        transform: translate(22px,0);
+    }
+
+    100%{
+        transform: translate(0,0);
+    }
+}
+
+@keyframes anime92{
+
+    0%{
+        transform: translate(0,0);
+    }
+
+    25%{
+        transform: translate(0,10px);
+    }
+
+    50%{
+        transform: translate(-22px,10px);
+    }
+
+    75%{
+        transform: translate(-22px,0);
+    }
+
+    100%{
+        transform: translate(0,0);
+    }
+}
+
+
+
+#dot1{
+
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 50px;
+    animation: oneone 2s ease-in infinite;
+}
+
+#dot2{
+
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left:10px ;
+    animation: twotwo 2s ease-in infinite;
+
+}
+
+#onedot{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-left: 30px;
+    animation: first 1s ease-in infinite;
+   
+
+
+}
+
+#two1{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 50px;
+    animation: second1 1s linear infinite ;
+     
+}
+
+#two2{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left:10px ;
+    animation: second2 1s linear 0.5s infinite ;
+
+}
+
+@keyframes oneone{
+
+    0%{
+        transform: translate(0,0);
+    }
+
+    25%{
+        transform: translate(0,40px);
+    }
+
+    50% {
+        transform: translate(0,0);
+    }
+
+    75%{
+        transform: translate(0,-40px);
+    }
+
+    100% {
+        transform: translate(0,0);
+    }
+}
+
+
+
+@keyframes twotwo{
+     0%{
+        transform: translate(0,0);
+    }
+
+    25%{
+        transform: translate(0,-40px);
+    }
+
+    50% {
+        transform: translate(0,0);
+    }
+
+    75%{
+        transform: translate(0,40px);
+    }
+
+    100% {
+        transform: translate(0,0);
+    }
+}
+
+#line{
+
+    height: 5px;
+    width: 70px;
+    background-color: white;
+    margin-top: 70px;
+    margin-left: 40px;
+    animation: linee 1s ease-in 0s infinite alternate-reverse;
+}
+
+@keyframes linee {
+
+    0%{
+        width: 0%;
+    }
+
+}
+
+
+@keyframes first  {
+    0%{
+        opacity: 100%;
+    }
+
+    50%{
+        opacity: 60%;
+    }
+    100%{
+        transform: translateX(60px);
+        opacity: 10%;
+    }
+}
+
+@keyframes second1 { 
+
+    0%{
+       transform: translate(-30px,-30px);
+    }
+
+    50%{
+      transform: translate(0,0);
+    }
+
+    100%{
+       transform: translate(-30px,-30px);
+       opacity: 0;
+    }
+    
+}
+
+@keyframes second2 { 
+
+    0%{
+       transform: translate(-30px,-30px);
+    }
+
+    50%{
+      transform: translate(0,0);
+    }
+
+    100%{
+       transform: translate(-30px,-30px);
+       
+    }
+    
+  
+}
+
+
+#pop{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 70px;
+    animation: scaleup 1s linear infinite reverse;
+}
+
+@keyframes scaleup{
+
+    100%{
+        transform: translate(0,90px);
+       
+    }
+
+    0%{
+        transform: scale(4);
+        opacity: 20%;
+    }
+}
+
+    #rectangle1{
+        height: 50px;
+        width: 2px;
+        background-color: white;
+        display: inline-block;
+        margin-top: 50px;
+        margin-left: 70px;
+        animation: line1 1s linear infinite reverse;
+    }
+
+    #rectangle2{
+        height: 50px;
+        width: 3px;
+        background-color: white;
+        display: inline-block;
+        margin-left: 5px;
+        animation: line2 1s linear infinite ;
+    }
+
+    @keyframes line1{
+
+        0%{
+            transform: translate(0,0);
+            opacity: 10%
+        }
+
+        100%{
+
+            transform: translate(0,-30px);
+
+        }
+
+
+    }
+
+@keyframes line2{
+
+    0%{
+        transform: translate(0,-10px);
+        opacity: 10%
+    }
+
+    100%{
+
+        transform: translate(0,30px);
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#loader{
+
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-top: 10px solid white;
+  border-left: 10px solid white;
+  border-right: 10px solid #0aa0b4 ;
+  border-bottom: 10px solid white;
+  margin-top: 50px;
+  margin-left: 50px;
+  animation: rotate 1s ease-in infinite;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
