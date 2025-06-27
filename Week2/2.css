@@ -1,0 +1,49 @@
+body{
+  text-align: center;
+  font-family: 'playfair display';
+}
+
+
+#first{
+  background-color: rgba(128, 128, 128, 0.9);
+  display: inline-block;
+  height: 400px;
+  width: 300px;
+  border-radius:10%;
+  margin-left: 100px;
+ 
+}
+
+button{
+  background-color: orange;
+  color: white;
+  
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+#second{
+   background-color:rgba(128, 128, 128, 0.9); 
+   display: inline-block;
+   height: 400px;
+  width: 300px;
+  border-radius:10%;
+  margin-left: 10px;
+}
+
+#third{
+  background-color: rgba(128, 128, 128, 0.9);   
+  display: inline-block;
+  height: 400px;
+  width: 300px;
+  border-radius:10%;
+  margin-left: 10px;
+}
+
+img{
+  border-top-right-radius:10%;
+  border-top-left-radius: 10%;
+}

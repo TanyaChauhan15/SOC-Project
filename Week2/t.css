@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    color: white;
+    background-color: red;
+    height: 50px;
+    width: 260px;
+    font-size: 25px;
+}
+
+#outer{
+
+    width: 260px;
+    height: 100px;
+    background-color: rgb(39,39,93);
+
+}
+
+#inner {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    color: rgb(39,39,93);
+    position: relative;
+    top:20px;
+    left:90px;
+    font-size: 20px;
+
+}
