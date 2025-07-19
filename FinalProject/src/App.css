@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: "Georgia", ;
+  background:  #f1c40f;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #2c2c2c;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: repeat(4, 80px);
+  gap: 5px;
+  margin: 0 auto;
+  background-color: black;
+  padding: 5px;
+
+}
+
+.tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8e44ad;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+  
+}
+
+.tile:hover {
+  background-color: #9b59b6;
+}
+
+.tile.empty {
+  background-color: #d4ac0d;
+  cursor: default;
+}
+
+.new-game {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #2c2c2c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.new-game:hover {
+  background-color: #444;
+}
